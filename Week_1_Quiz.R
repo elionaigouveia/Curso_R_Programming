@@ -55,4 +55,5 @@ i <- max(h)
 
 
 
+
 data.frame(table(d$Ozone))
