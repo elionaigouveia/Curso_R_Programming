@@ -1,6 +1,6 @@
 # Quando for rodar swirl use os comando abaixo sempre:
-#library("swirl")
-#swirl()
+library("swirl")
+swirl()
 
 # Digitar skip() permite pular a pergunta atual.
 # Digitar play() permite que você experimente com R por conta própria; redemoinho vai ignorar o que você faz...
@@ -9,11 +9,11 @@
 # Digitar main() retorna ao menu principal do swirl.
 # Digitar info() exibe essas opções novamente.
 
-#c() #vector
+c() #vector
 
-#getwd()  # which directory your R session is using as its current working directory 
-#ls() # List all the objects in your local workspace
+getwd()  # which directory your R session is using as its current working directory 
+ls() # List all the objects in your local workspace
 
 
-#list.files() ; dir()  #List all the files in your working directory
-#args(name_da_fc)  #determine the arguments to function
+list.files() ; dir()  #List all the files in your working directory
+args(name_da_fc)  #determine the arguments to function
